@@ -40,6 +40,8 @@ Three-layer design with clean separation of concerns:
 This separation means the controller can be driven from a script, REPL, or future alternate interfaces without rewriting robot logic.
 
 ## Project Structure
+
+```
 robotic-arm-dashboard/
 ├── arm_controller/     # Robot brain (Python package)
 ├── dashboard/          # Web interface (Python package)
@@ -49,7 +51,7 @@ robotic-arm-dashboard/
 ├── tests/              # Controller tests
 ├── scripts/            # Utility scripts (calibration, etc.)
 └── requirements.txt
-
+```
 ## Setup
 
 _Instructions to come once the project is runnable._
